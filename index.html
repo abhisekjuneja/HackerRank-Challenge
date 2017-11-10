@@ -9,137 +9,158 @@
     <meta name="theme-color" content="#00d769">
     <link rel="shortcut icon" href="./assets/icon.png" type="image/png">
     <meta name="mobile-web-app-capable" content="yes" />
-    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
-        crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ"
         crossorigin="anonymous">
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
-        crossorigin="anonymous"></script>
     <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
         crossorigin="anonymous">
     <style>
-        .site-banner {
-            border: solid 1px rgba(0, 0, 0, 0.25);
-            box-shadow: 0 2px 8px 0 rgba(0, 0, 0, 0.2), 0 4px 20px 0 rgba(0, 0, 0, 0.19);
+    .icon-img {
+            width: 40px;
+            height: 40px;
         }
 
-        .icon-img {
-            position: absolute;
-            margin: auto;
-            top: 0;
-            left: 0;
-            right: 0;
-            bottom: 0;
-            width: auto;
-            /* position: relative;
-            top: 6%;
-            left: -10%; */
+        body {
+            background-color: #eeeeee;
         }
+
+        .container {
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+        }
+
+        .navbar {
+            background-color: #3B4350;
+        }
+
+        .navbar-brand {
+            color: white !important;
+            font-size: 1.4rem;
+        }
+        /* .mid-border {
+            /* background-color: blue; */
+
+        border-right: 1px solid rgb(182, 182, 182);
+    }
+    */ .base-border {
+        border-bottom: 1px solid rgb(182, 182, 182);
+    }
+
+    .neat-link {
+        text-decoration: none;
+    }
+
+    .text-small {
+        font-size: 0.7rem;
+    }
     </style>
 </head>
 
 <body>
+    <nav class="navbar sticky-top navbar-light bg-dark">
+        <a class="navbar-brand" href="#">
+            <img src="./assets/icon.png" class="d-inline-block align-middle icon-img" alt=""> HackerRank-Challenge
+        </a>
+    </nav>
     <div class="container">
-        <div class="row site-banner mt-sm-3 ">
-            <div class="col-8 col-sm-10 text-center p-2">
-                <h2>HackerRank Challenge</h2>
-            </div>
-            <div class="col-4 col-sm-2">
-                <img src="./assets/icon.png" alt="HackerRank Logo" width="70%" height="70%" class="icon-img">
-            </div>
-        </div>
-
-
-        <div class="row mt-3">
+        <div class="row pt-3">
             <div class="col text-center">
                 Hello Internet! Greetings from India! I'm
                 <b>Abhisek Juneja</b> &amp; this is the Website for my
-                <i class="fa fa-github fa-border" aria-hidden="true"></i> Repository:
+                <i class="fa fa-github fa-border" aria-hidden="true"></i>&nbsp;GitHub Repository:
                 <a href="https://github.com/abhisekjuneja/HackerRank-Challenge">HackerRank Chalenge</a>.
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col">
-                <h6>
-                    <i class="fa fa-question-circle fa-border" aria-hidden="true"></i> What's the Challenge All About?</h6>
-                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi fugiat dolore consectetur nisi itaque, laudantium nulla dolorem
-                reiciendis id sunt!
+        <div class="row mt-4 base-border text-center">
+            <div class="col-md-6 mid-border">
+                <div class="row">
+                    <div class="col">
+                        <h6>
+                            <i class="fa fa-question-circle fa-border" aria-hidden="true"></i> What's the Challenge All About?</h6>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nisi libero quos, sapiente non quasi tempore natus doloremque illo
+                        ad laboriosam!
+                    </div>
+                </div>
+                <div class="row mt-4">
+                    <div class="col">
+                        <h6>
+                            <i class="fa fa-question-circle fa-border" aria-hidden="true"></i> Enough Said! Where's the Code? </h6>
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores nihil eius aliquid obcaecati quo odit dolor officiis
+                        culpa nisi eum?
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col">
+                        <h6>
+                            <i class="fa fa-bar-chart fa-border" aria-hidden="true"></i> Project Statistics</h6>
+                        <table class="table table-responsive table-hover table-bordered mt-2 align-content-center">
+                            <tbody>
+                                <tr>
+                                    <th scope="row">
+                                        <i class="fa fa-calendar fa-border" aria-hidden="true"></i>
+                                    </th>
+                                    <td>Project Started</td>
+                                    <td>7
+                                        <sup>th</sup> Nov 2017</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <i class="fa fa-clock-o fa-border" aria-hidden="true"></i>
+                                    </th>
+                                    <td>Days Since Start</td>
+                                    <td>
+                                        <script>
+                                            document.write(Math.floor(((Date.now()) - Date.parse('Nov 7, 2017')) /
+                                                86350000));
+                                        </script>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <i class="fa fa-code fa-border" aria-hidden="true"></i>
+                                    </th>
+                                    <td>Problem Counter</td>
+                                    <td>1</td>
+                                </tr>
+                                <tr>
+                                    <th scope="row">
+                                        <i class="fa fa-language fa-border" aria-hidden="true"></i>
+                                    </th>
+                                    <td>Programming Languages</td>
+                                    <td>Java</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col">
-                <h6>
-                    <i class="fa fa-question-circle fa-border" aria-hidden="true"></i> Enough Said! Where's the Code? </h6>
-                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Asperiores nihil eius aliquid obcaecati quo odit dolor officiis
-                culpa nisi eum?
+        <div class="row mt-2">
+            <div class="col text-center text-muted">
+                <div class="row">
+                    <div class="col text-center">
+                        <span class="d-block">Built with
+                            <span class="text-danger">
+                                <i class="fa fa-heart" aria-hidden="true"></i>
+                            </span> By
+                            <a href="https://abhisekjuneja.github.io">Abhisek Juneja </a>
+                        </span>
+                        <span class="d-block mb-2 mt-2 text-small">
+                            Developed using
+                            <strong>BootStrap 4</strong> &
+                            <strong>Font-Awesome</strong>
+                            <br /> Hosted on
+                            <strong>GitHub Pages</strong>
+                        </span>
+                    </div>
+                </div>
             </div>
         </div>
-        <div class="row mt-4">
-            <div class="col">
-                <h6>
-                    <i class="fa fa-bar-chart fa-border" aria-hidden="true"></i> What's the Statistics Like?</h6>
-                <table class="table table-responsive table-hover table-bordered mt-4">
-                    <tbody>
-                        <tr>
-                            <th scope="row">
-                                <i class="fa fa-calendar fa-border" aria-hidden="true"></i>
-                            </th>
-                            <td>Project Started</td>
-                            <td>7
-                                <sup>th</sup> Nov 2017</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <i class="fa fa-clock-o fa-border" aria-hidden="true"></i>
-                            </th>
-                            <td>Days Since Start</td>
-                            <td>
-                                <script>document.write(Math.floor(((Date.now()) - Date.parse('Nov 5, 2017')) / 86400000));</script>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <i class="fa fa-code fa-border" aria-hidden="true"></i>
-                            </th>
-                            <td>Problem Counter</td>
-                            <td>1</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">
-                                <i class="fa fa-language fa-border" aria-hidden="true"></i>
-                            </th>
-                            <td>Programming Languages</td>
-                            <td>Java</td>
-                        </tr>
-                    </tbody>
-                </table>
-            </div>
-        </div>
-        <div class="row mt-1">
-            <div class="col text-center">
-                    <hr />
-                <i class="fa fa-vcard" aria-hidden="true"></i>
-                <a href="https://abhisekjuneja.github.io">Abhisek Juneja</a> | &copy; 2017
-                <hr />
-            </div>
-        </div>
-        <div class="row mb-1">
-            <div class="col text-center">
-                <span class="d-block mb-2"> Developed using
-                    <br/>
-                    <strong>BootStrap 4</strong> &amp;
-                    <strong>Font-Awesome</strong>
-                    <br/> Hosted on
-                    <strong>GitHub Pages</strong>
-                </span>
-                <span class="d-block mb-3">
-                    <i class="fa fa-github fa-2x fa-border" aria-hidden="true"></i>
-                    <i class="fa fa-font-awesome fa-2x fa-border" aria-hidden="true"></i>
-                </span>
-            </div>
-
-        </div>
-
     </div>
+    <!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn"
+        crossorigin="anonymous"></script> -->
 </body>
 
 </html>
