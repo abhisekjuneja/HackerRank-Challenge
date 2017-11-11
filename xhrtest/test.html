@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>XHR TEST</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/default.min.css">
+</head>
+
+<div id="code">
+    No Code To Display!
+</div>
+
+<body>
+
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
+<script>
+    // window.onload = function () {
+    //     hljs.initHighlightingOnLoad();
+    // }
+
+    var xhttp = new XMLHttpRequest();
+    xhttp.onreadystatechange = function () {
+        if (this.readyState == 4 && this.status == 200) {
+            // Typical action to be performed when the document is ready:
+            let template = `<pre><code class="java">${xhttp.responseText}</code></pre>`;
+            console.log(xhttp.responseText);
+            document.getElementById('code').innerHTML = template;
+            hljs.highlightBlock(document.getElementById('code'));
+        }
+    };
+    xhttp.open("GET", "https://raw.githubusercontent.com/abhisekjuneja/HackerRank-Challenge/master/Java/STDINOUT1.java", true);
+    xhttp.send();
+</script>
+
+</html>

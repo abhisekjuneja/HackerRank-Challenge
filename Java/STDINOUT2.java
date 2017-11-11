@@ -1,5 +1,5 @@
 /**
- * Solution To : "Java Stdin and Stdout II"
+ * Solution To : "Java STDIN & STDOUT II"
  * Problem Statement: https://www.hackerrank.com/rest/contests/master/challenges/java-stdin-stdout/download_pdf?language=English
 */
 
