@@ -13,6 +13,6 @@ This documentation contains the links to all the Code in the Project. I will als
 | Statistic             | Description                |
 | --------------------- | -------------------------- |
 | **Challenge Started** | Tuesday, 7th November 2017 |
-| **Problems Solved**   | 1                          |
+| **Problems Solved**   | 3                          |
 | **Modules Covered**   | Java                       |
 

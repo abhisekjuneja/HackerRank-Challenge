@@ -1,0 +1,151 @@
+.icon-img {
+  width: 40px;
+  height: 40px;
+}
+
+body {
+  background-color: #eeeeee;
+}
+
+.container {
+  background-color: #ffffff;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.navbar {
+  background-color: #3B4350;
+}
+
+.navbar-brand {
+  color: white !important;
+  font-size: 1.4rem;
+}
+
+.my-website-link {
+  text-decoration: none !important;
+  color: rgb(122, 250, 252) !important;
+}
+
+.credits {
+  background-color: #3B4350;
+  color: #fff !important;
+}
+
+.credits-text-small {
+  font-size: 0.7rem;
+}
+
+.program-list {
+  overflow-x: hidden;
+  max-height: 20rem;
+  overflow-y: scroll;
+}
+
+#solution::-webkit-scrollbar,
+.program-list::-webkit-scrollbar {
+  width: 0.4rem;
+}
+
+#solution::-webkit-scrollbar-track,
+.program-list::-webkit-scrollbar-track {
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+  border-radius: 10px;
+}
+
+#solution::-webkit-scrollbar-thumb,
+.program-list::-webkit-scrollbar-thumb {
+  background-color: rgba(59, 67, 80, 0.501) !important;
+  outline: 1px solid rgb(14, 14, 14) !important;
+  border-radius: 15px;
+}
+
+.active-solution {
+  background-color: rgb(209, 230, 255) !important;
+}
+
+.table-problem-statement {
+  cursor: pointer;
+}
+
+#solution {
+  font-size: 0.9rem;
+  overflow-y: scroll;
+  max-height: 20rem;
+}
+
+.highlightjs-credit {
+  font-size: 0.9rem;
+  margin-top: -0.5rem;
+  text-align: center;
+}
+
+.table-row-active {
+  background-color: #3D4352;
+  color: #ffffff;
+  box-shadow: 0 4px 2px 0 rgba(0, 0, 0, 0.2), 0 5px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.table-row-active:hover {
+  background-color: #3D4352 !important;
+  color: #ffffff;
+}
+
+.spinner {
+  margin: auto;
+  width: auto;
+  height: 30px;
+  text-align: center;
+}
+
+.spinner > div {
+  background-color: #333;
+  height: 100%;
+  width: 6px;
+  display: inline-block;
+
+  -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+  animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+.spinner .rect2 {
+  -webkit-animation-delay: -1.1s;
+  animation-delay: -1.1s;
+}
+
+.spinner .rect3 {
+  -webkit-animation-delay: -1.0s;
+  animation-delay: -1.0s;
+}
+
+.spinner .rect4 {
+  -webkit-animation-delay: -0.9s;
+  animation-delay: -0.9s;
+}
+
+.spinner .rect5 {
+  -webkit-animation-delay: -0.8s;
+  animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+  0%,
+  100%,
+  40% {
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    -webkit-transform: scaleY(1.0);
+  }
+}
+
+@keyframes sk-stretchdelay {
+  0%,
+  100%,
+  40% {
+    transform: scaleY(0.4);
+    -webkit-transform: scaleY(0.4);
+  }
+  20% {
+    transform: scaleY(1.0);
+    -webkit-transform: scaleY(1.0);
+  }
+}

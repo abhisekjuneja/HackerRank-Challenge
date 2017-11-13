@@ -1,11 +1,11 @@
 /**
  * Solution To : "Welcome to Java"
- * Problem Statement: https://www.hackerrank.com/rest/contests/master/challenges/welcome-to-java/download_pdf?language=English
+ * Problem Statement: https://goo.gl/wRgsQd
 */
 
 public class WelcomeToJava {
-    public static void main(String[] args) {
-        System.out.println("Hello, World.");
-        System.out.print("Hello, Java.");
-    }
+ public static void main(String[] args) {
+  System.out.println("Hello, World.");
+  System.out.print("Hello, Java.");
+ }
 }
