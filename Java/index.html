@@ -54,6 +54,7 @@
     table {
       /* width: 100% !important; */
       margin: auto;
+      /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
     }
 
     .credits {
@@ -70,6 +71,7 @@
       /* min-height: 10rem; */
       max-height: 15rem;
       overflow-y: scroll;
+      /* box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2), 0 6px 10px 0 rgba(0, 0, 0, 0.19); */
     }
     /* #coder {
       overflow-x: scroll;
@@ -77,31 +79,21 @@
 
     .program-list::-webkit-scrollbar,
     #solution::-webkit-scrollbar {
-      width: 0.8em !important;
-    }
-
-    code::-webkit-scrollbar {
-      width: 0.4rem !important;
+      width: 0.4rem;
+      
     }
 
     .program-list::-webkit-scrollbar-track,
     #solution::-webkit-scrollbar-track {
       -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
-    }
-
-    code::-webkit-scrollbar-track {
-      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3) !important;
+      border-radius: 10px;
     }
 
     .program-list::-webkit-scrollbar-thumb,
     #solution::-webkit-scrollbar-thumb {
-      background-color: darkgrey !important;
+      background-color: rgba(59, 67, 80, 0.501) !important;
       outline: 1px solid rgb(14, 14, 14) !important;
-    }
-
-    code::-webkit-scrollbar-thumb {
-      background-color: darkgrey !important;
-      outline: 1px solid rgb(14, 14, 14) !important;
+      border-radius: 15px;
     }
 
     .active-solution {
@@ -128,15 +120,16 @@
     </a>
   </nav>
   <div class="container">
-    <div class="row pt-3  text-center">
+    <div class="row pt-3 text-center">
       <div class="col">
-        <h1 class="challenge-heading"><i class="fa fa-coffee" aria-hidden="true"></i> Java Challenge</h1>
+        <h1 class="challenge-heading">
+          <i class="fa fa-coffee" aria-hidden="true"></i> Java</h1>
       </div>
-      <div class="row mb-4">
-        <div class="col">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque doloribus illo modi non beatae ratione quisquam nostrum facilis
-          explicabo distinctio.
-        </div>
+    </div>
+    <div class="row mb-4">
+      <div class="col">
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque doloribus illo modi non beatae ratione quisquam nostrum facilis
+        explicabo distinctio.
       </div>
     </div>
     <div class="row mb-4">
@@ -196,18 +189,23 @@
         </div>
       </div>
       <div class="col-md-8">
-        <div class="row mb-3">
+        <div class="row mb-3 mt-3 mt-md-0">
           <div class="col text-center">
             <b>Solution</b>
           </div>
         </div>
         <div class="row">
-          <div class="col" id="solution">
+          <div class="col mr-2" id="solution">
 
           </div>
         </div>
       </div>
     </div>
+    <!-- <div class="row">
+      <div class="col">
+
+      </div>
+    </div> -->
     <div class="row mt-2 credits p-2">
       <div class="col text-center">
         <div class="row">
@@ -245,8 +243,9 @@
         let template = `<pre><code class="java" id="program">${xhttp.responseText}</code></pre>`;
         // console.log(xhttp.responseText);
         document.getElementById('solution').innerHTML = template;
-        console.log(template);
+        // console.log(template);
         hljs.highlightBlock(document.getElementById('program'));
+        console.log(document.getElementById('program'));
       }
     };
     xhttp.open("GET", "https://raw.githubusercontent.com/abhisekjuneja/HackerRank-Challenge/master/Java/STDINOUT1.java",
