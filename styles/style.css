@@ -149,3 +149,16 @@ body {
     -webkit-transform: scaleY(1.0);
   }
 }
+
+a {
+  text-decoration: none !important;
+  cursor: pointer;
+}
+
+.breadcrumb {
+  background-color: rgba(240, 240, 240, 0.768) !important;
+  border-radius: 50px !important;
+  padding: 0.4rem !important;
+  padding-left: 0.8rem !important;
+  margin: -0.5rem 0 -0.5 0 !important;
+}
