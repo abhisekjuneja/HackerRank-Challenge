@@ -23,7 +23,7 @@ function fetchSolution(target, challengeName, statementName) {
         document.getElementById('solution').scrollIntoView();
       }
     };
-    xhttp.open("GET", `https://raw.githubusercontent.com/abhisekjuneja/HackerRank-Challenge/master/${challengeName}/${statementName}`,
+    xhttp.open("GET", `https://cdn.rawgit.com/abhisekjuneja/HackerRank-Challenge/master/${challengeName}/${statementName}`,
       true);
     xhttp.send();
   }, 1000);
