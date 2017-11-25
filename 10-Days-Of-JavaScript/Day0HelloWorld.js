@@ -1,3 +1,8 @@
+/*
+  Solution To: 10 Days of JavaScript - Day [0]: Hello World
+  Problem Statement: https://goo.gl/5jsN8c
+*/
+
 'use strict';
 
 process.stdin.resume();
