@@ -1,6 +1,6 @@
 /*
-  Solution To: 10 Days of JavaScript - Day [0]: Hello World
-  Problem Statement: https://goo.gl/5jsN8c
+  Solution To: 10 Days of JavaScript - Day [1]: Functions
+  Problem Statement: https://goo.gl/G7Am3K
 */
 
 'use strict';
@@ -29,15 +29,19 @@ function readLine() {
 
 /* Start of Solution */
 
-function greeting(parameterVariable) {
-  console.log('Hello, World!');
-  console.log(parameterVariable);
+function factorial(n) {
+  let factorial = 1;
+  while (n > 1) {
+    factorial *= n;
+    n--;
+  }
+  return factorial
 }
 
 /* End of Solution */
 
 function main() {
-  const parameterVariable = readLine();
+  const n = +(readLine());
   
-  greeting(parameterVariable);
+  console.log(factorial(n));
 }

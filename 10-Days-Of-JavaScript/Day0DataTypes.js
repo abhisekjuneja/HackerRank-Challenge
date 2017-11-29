@@ -27,6 +27,8 @@ function readLine() {
   return inputString[currentLine++];
 }
 
+/* Start of Solution */
+
 function performOperation(secondInteger, secondDecimal, secondString) {
   const firstInteger = 4;
   const firstDecimal = 4.0;
@@ -38,6 +40,8 @@ function performOperation(secondInteger, secondDecimal, secondString) {
 
   console.log(firstString + secondString);
 }
+
+/* End of Solution */
 
 function main() {
   const secondInteger = readLine();
