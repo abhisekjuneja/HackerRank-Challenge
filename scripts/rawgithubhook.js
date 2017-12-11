@@ -20,7 +20,7 @@ function fetchSolution(target, challengeName, statementName) {
         // Highligh the Code Container 'program'
         hljs.highlightBlock(document.getElementById('program'));
         // Scroll into the view of Solution (Mainly for Mobile Devices)
-        document.getElementById('solution').scrollIntoView();
+        document.getElementById('solution').scrollIntoView({behavior: "smooth", block: "start", inline: "nearest"});
       }
     };
     xhttp.open("GET", `https://cdn.rawgit.com/abhisekjuneja/HackerRank-Challenge/master/${challengeName}/${statementName}`,
