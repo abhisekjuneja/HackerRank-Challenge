@@ -1,6 +1,6 @@
 /*
   Solution To: "Weather Observation Station 5"
-  Problem Statement: https://goo.gl/gLHUXq
+  Problem Statement: <a href="https://goo.gl/gLHUXq" target="_blank">https://goo.gl/gLHUXq</a>
 */
 
 SELECT CITY, LENGTH(CITY)

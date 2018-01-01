@@ -1,6 +1,6 @@
 /*
   Solution To: "Weather Observation Station 3"
-  Problem Statement: https://goo.gl/FeQq6b
+  Problem Statement: <a href="https://goo.gl/FeQq6b" target="_blank">https://goo.gl/FeQq6b</a>
 */
 
 SELECT DISTINCT CITY
