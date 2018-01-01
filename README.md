@@ -16,7 +16,7 @@ This documentation contains the links to all the Code in the Project. I will als
 
 ### Challenge Tracks:
 
-| [Java](https://github.com/abhisekjuneja/HackerRank-Challenge/tree/master/Java) | 13 Solutions     |
+| [**Java**](https://github.com/abhisekjuneja/HackerRank-Challenge/tree/master/Java) | **13 Solutions**     |
 | [**SQL**](https://github.com/abhisekjuneja/HackerRank-Challenge/tree/master/SQL) | **11 Solutions** |
 | [**10 Days of JavaScript**](https://github.com/abhisekjuneja/HackerRank-Challenge/tree/master/10-Days-Of-JavaScript) | **6 Solutions**  |
 
