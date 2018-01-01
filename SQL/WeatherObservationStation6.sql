@@ -1,6 +1,10 @@
 /*
-  Solution To: "Weather Observation Station 6"
-  Problem Statement: <a href="https://goo.gl/uJrXiW" target="_blank">https://goo.gl/uJrXiW</a>
+  Solution To: <span class="problem-statement-code-heading">
+    "Weather Observation Station 6"
+  </span>
+  Problem Statement: <a href="https://goo.gl/uJrXiW" target="_blank" class="problem-statement-link">
+    https://goo.gl/uJrXiW
+  </a>
 */
 
 SELECT CITY
