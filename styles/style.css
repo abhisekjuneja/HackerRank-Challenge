@@ -165,9 +165,9 @@ a {
 }
 
 .problem-statement-code-heading {
-  font-weight: bold;
+  font-weight: bold !important;
 }
 
 .problem-statement-link {
-  color: red;
+  color: red !important;
 }
